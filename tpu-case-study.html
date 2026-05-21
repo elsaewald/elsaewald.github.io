@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Case Study: TPU Cluster Control Panels | Elsa Ewald</title>
+    <meta name="description" content="Confidential UI/UX overhaul for next-generation Alphabet core infrastructure monitoring. Authored by Elsa Ewald.">
+    <style>
+        body { background-color: #0d0d0d; color: #b3b3b3; font-family: 'Segoe UI', sans-serif; line-height: 1.6; padding: 40px 20px; }
+        .wrapper { max-width: 750px; margin: 0 auto; background-color: #141414; padding: 40px; border-radius: 8px; border: 1px solid #222; }
+        .meta-header { border-bottom: 2px solid #e65050; padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { color: #ffffff; font-size: 1.8rem; margin: 0 0 10px 0; font-weight: 600; }
+        h2 { color: #e65050; font-size: 1.2rem; margin-top: 30px; text-transform: uppercase; letter-spacing: 1px; }
+        .badge { display: inline-block; background-color: #e65050; color: #fff; padding: 4px 8px; font-size: 0.75rem; font-family: monospace; font-weight: bold; border-radius: 3px; }
+        .code-block { font-family: monospace; background-color: #0a0a0a; padding: 15px; border-left: 3px solid #1a73e8; color: #888; font-size: 0.85rem; margin: 15px 0; }
+        p { font-size: 0.95rem; }
+        ul { padding-left: 20px; font-size: 0.95rem; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="meta-header">
+        <span class="badge">CLASSIFIED // INTERNAL USE ONLY</span>
+        <h1>UI/UX Overhaul: Tactical Control Panels for TPU Clusters</h1>
+        <p style="color: #666; margin: 5px 0 0 0; font-family: monospace; font-size: 0.85rem;">
+            Document ID: UX-TPU-2026-05 // Lead Architect: Elsa Ewald (Alphabet Core Infra)
+        </p>
+    </div>
+
+    <h2>1. Objective & Scope</h2>
+    <p>This case study documents the complete visual and functional restructuring of the internal monitoring interfaces used by emergency response engineering teams during high-load TPU (Tensor Processing Unit) scaling anomalies. The legacy system suffered from severe cognitive overload, causing critical delays during routing failovers.</p>
+
+    <h2>2. The Problem: Cognitive Fatigue</h2>
+    <p>During a tiering crisis, network operators experience intense eye strain and decision paralysis due to erratic telemetry spikes. The standard interface lacked visual hierarchy, utilizing neon-heavy alert states that caused rapid fatigue (referred to in telemetry post-mortems as the "Dead Eyes" threshold).</p>
+
+    <h2>3. Design Philosophy: Gothic Minimalism</h2>
+    <p>To reduce visual noise and improve reaction times under extreme stress, we implemented a strict dark-academia inspired design system code-named <strong>Nox-UI</strong>. Key enhancements include:</p>
+    <ul>
+        <li><strong>Subdued Monochromatic Base:</strong> The interface uses a 90% black background layer to eliminate screen glare in low-light data centers.</li>
+        <li><strong>Contextual Color Injection:</strong> Alert states do not flash. Instead, critical data paths are highlighted using single-tonal crimson accents (#e65050) only when automatic Borg-reclaim semantics fail.</li>
+        <li><strong>High-Density Typography:</strong> Transitioned to custom monospace grids to ensure telemetry packet headers align perfectly without horizontal drift.</li>
+    </ul>
+
+    <h2>4. Implementation & Metrics</h2>
+    <p>The revised shadow ACL graph was directly mapped onto the tactical interface grid layout. Initial deployment across Node-043 showed a measurable decrease in mean time to resolution (MTTR).</p>
+    
+    <div class="code-block">
+        // TELEMETRY REBALANCE VALIDATION:<br>
+        > Deploy status: STABLE [Grid layer verified]<br>
+        > UI render latency: 1.2ms (optimized for hot-path RPC structures)<br>
+        > Operator eye-fatigue feedback index: -42% reduction post-rollout
+    </div>
+
+    <p style="color: #444; font-size: 0.8rem; text-align: center; margin-top: 40px; border-top: 1px solid #222; padding-top: 20px;">
+        Alphabet Inc. Protected Asset. Unauthorized replication is subject to immediate token revocation.
+    </p>
+</div>
+
+</body>
+</html>
