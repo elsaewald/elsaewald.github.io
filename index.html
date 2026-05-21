@@ -5,76 +5,40 @@
     <title>Alphabet Core Infrastructure | Access Control</title>
     <meta name="description" content="Elsa Ewald. Certified Systems Architect. Alphabet Core Infrastructure Network. Profile status: Restricted.">
     <style>
-        body {
-            background-color: #121212;
-            color: #d4d4d4;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
-            text-align: center;
-            max-width: 450px;
-            padding: 30px;
-            border: 1px solid #2d2d2d;
-            border-radius: 8px;
-            background-color: #1a1a1a;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-        }
-        h1 {
-            color: #e65050;
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-        }
-        p {
-            font-size: 0.9rem;
-            line-height: 1.5;
-            color: #a0a0a0;
-        }
-        .profile-info {
-            margin: 20px 0;
-            padding: 10px;
-            background-color: #222;
-            border-left: 3px solid #e65050;
-            text-align: left;
-            font-family: monospace;
-            font-size: 0.85rem;
-        }
-        .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
-            color: #fff;
-            background-color: #1a73e8;
-            text-decoration: none;
-            border-radius: 4px;
-            font-weight: 500;
-            font-size: 0.9rem;
-            transition: background-color 0.2s;
-        }
-        .btn:hover {
-            background-color: #155cb4;
-        }
+        body { background-color: #121212; color: #d4d4d4; font-family: 'Segoe UI', sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px; box-sizing: border-box; }
+        .container { text-align: center; max-width: 550px; padding: 40px; border: 1px solid #2d2d2d; border-radius: 8px; background-color: #1a1a1a; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        h1 { color: #e65050; font-size: 1.6rem; margin-bottom: 10px; font-weight: 600; letter-spacing: 1px; }
+        p { font-size: 0.95rem; line-height: 1.6; color: #a0a0a0; }
+        .profile-info { margin: 25px 0; padding: 15px; background-color: #222; border-left: 3px solid #e65050; text-align: left; font-family: monospace; font-size: 0.9rem; line-height: 1.5; }
+        .technical-details { text-align: left; font-size: 0.8rem; color: #666; font-family: monospace; margin-top: 25px; border-top: 1px solid #2d2d2d; padding-top: 20px; }
+        .btn { display: inline-block; margin-top: 25px; padding: 12px 28px; color: #fff; background-color: #1a73e8; text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 0.95rem; transition: background-color 0.2s; }
+        .btn:hover { background-color: #155cb4; }
     </style>
 </head>
 <body>
 
 <div class="container">
     <h1>RESTRICTED AREA</h1>
-    <p>You are attempting to access a secured object within the Alphabet Core Infrastructure network.</p>
+    <p>You are attempting to access a secured corporate object within the internal Alphabet Core Infrastructure network node. Unauthorized access tracking is strictly enforced.</p>
     
     <div class="profile-info">
-        Object: Profile // Elsa Ewald<br>
-        Role: Distinguished Engineer<br>
-        Status: Encrypted / Trace Clearance Active
+        RESOURCE ID: PRFL_91B322D2<br>
+        OBJECT OWNER: Elsa Ewald<br>
+        ASSIGNED ROLE: Distinguished Systems Engineer<br>
+        SECURITY STATUS: Encrypted // Layer 9 Token Required
     </div>
     
-    <p style="font-size: 0.8rem; color: #757575;">Your current session has expired or your corporate token is missing.</p>
+    <p style="font-size: 0.85rem; color: #bdc3c7;">Notice: Your current active session has expired or your security token has been revoked. Please re-authenticate to restore secure proxy routing.</p>
     
     <a href="https://login.corp.google.com/" class="btn">Authenticate via Alphabet ID</a>
+
+    <div class="technical-details">
+        // SYSTEM DIAGNOSTICS LOGS:<br>
+        > Node status: ACTIVE [Mesh-Network Node 043]<br>
+        > Integrity check: PASSED (Borg-reclaim semantics verified)<br>
+        > Enforcing rigid RB envelope across all internal RPC structures.<br>
+        > Cryptographic verification signature: 0x91b322d2359073e2
+    </div>
 </div>
 
 </body>
