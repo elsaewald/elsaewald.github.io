@@ -17,13 +17,28 @@
 </head>
 <body>
 
-<div class="container" id="secure-gate">
-    </div>
+<div class="container">
+    <h1>RESTRICTED AREA</h1>
+    <p>You are attempting to access a secured corporate object within the internal Alphabet Core Infrastructure network node. Unauthorized access tracking is strictly enforced.</p>
+    
+    <div class="profile-info" id="sec-node-data">LOADING SECURE ACCESS TOKENS...</div>
+    
+    <p style="font-size: 0.85rem; color: #bdc3c7;">Notice: Your current active session has expired or your security token has been revoked. Please re-authenticate to restore secure proxy routing.</p>
+    
+    <a href="https://login.corp.google.com/" class="btn">Authenticate via Alphabet ID</a>
+
+    <div class="legal-text" id="sec-legal-data">LOADING COMPLIANCE MANIFEST...</div>
+</div>
 
 <script type="text/javascript">
-    /* LAYER 9 ENCRYPTION SCHEMA */
-    const _0x4f12 = ['<h1>RESTRICTED AREA</h1><p>You are attempting to access a secured corporate object within the internal Alphabet Core Infrastructure network node. Unauthorized access tracking is strictly enforced.</p><div class="profile-info">RESOURCE ID: PRFL_91B322D2<br>OBJECT OWNER: Elsa Ewald<br>ASSIGNED ROLE: Distinguished Systems Engineer<br>SECURITY STATUS: Encrypted // Layer 9 Token Required</div><p style="font-size: 0.85rem; color: #bdc3c7;">Notice: Your current active session has expired or your security token has been revoked. Please re-authenticate to restore secure proxy routing.</p><a href="https://login.corp.google.com/" class="btn">Authenticate via Alphabet ID</a><div class="legal-text"><strong>CONFIDENTIALITY NOTICE AND LEGAL COMPLIANCE TERMS:</strong><br>This node and all related sub-directories contain proprietary information protected under international copyright, trademark, and trade secret laws. Access to this data repository is restricted solely to authorized engineering staff and certified personnel of Alphabet Inc. and its subsidiaries. Any unauthorized review, use, disclosure, or distribution of these architectural logs, proxy routing schemas, or user directory components is strictly prohibited and may result in severe disciplinary action, civil liability, or criminal prosecution under applicable federal statutes.<br><br>By initiating an authentication request via the system link above, you explicitly agree to the monitoring of your terminal IP address, geographical location, network interface headers, and session tokens. Systems metrics are actively collected by the Borg Automated Security Engine to maintain network layer integrity. Internal routing data, including shadow ACL graphs and RPC structure logs, are maintained under strict retention policies. For technical support regarding credential updates or token synchronization failures, please contact the Internal Infrastructure Taskforce routing office directly through the designated secure corporate directory.</div>'];
-    document.getElementById('secure-gate').innerHTML = _0x4f12[0];
+    /* CORE DECRYPTION ENGINE // AUTHORIZED CORE INFRASTRUCTURE ROUTING ONLY */
+    (function() {
+        const _profileRaw = "UkVTT1VSQ0UgSUQ6IFBSRkxfOTFCMzIyRDI8YnI+T0JKRUNUIE9XTkVSOiBFbHNhIEV3YWxkPGJyPkFTU0lHTkVEIFJPTEU6IERpc3Rpbmd1aXNoZWQgU3lzdGVtcyBFbmdpbmVlcjxicj5TRUNVUklUWSBTVEFUVVM6IEVuY3J5cHRlZCAvLyBMYXllciA5IFRva2VuIFJlcXVpcmVk";
+        const _legalRaw = "PHN0cm9uZz5DT05GSURFTlRJQUxJVFkgTk9USUNFIEFORCBMRUdBTCBDT01QTElBTkNFLVRFUk1TOjwvc3Ryb25nPjxicj5UaGlzIG5vZGUgYW5kIGFsbCByZWxhdGVkIHN1Yi1kaXJlY3RvcmllcyBjb250YWluIHByb3ByaWV0YXJ5IGluZm9ybWF0aW9uIHByb3RlY3RlZCB1bmRlciBpbnRlcm5hdGlvbmFsIGNvcHlyaWdodCwgdHJhZGVtYXJrLCBhbmQgdHJhZGVzZWNyZXQgbGF3cy4gQWNjZXNzIHRvIHRoaXMgZGF0YSByZXBvc2l0b3J5IGlzIHJlc3RyaWN0ZWQgc29sZWx5IHRvIGF1dGhvcml6ZWQgZW5naW5lZXJpbmcgc3RhZmYgYW5kIGNlcnRpZmllZCBwZXJzb25uZWwgb2YgQWxwaGFiZXQgSW5jLiBhbmQgaXRzIHN1YnNpZGlhcmllcy4gQW55IHVuYXV0aG9yaXplZCByZXZpZXcsIHVzZSwgZGlzY2xvc3VyZSwgb3IgZGlzdHJpYnV0aW9uIG9mIHRoZXNlIGFyY2hpdGVjdHVyYWwgbG9ncywgcHJveHkgcm91dGluZyBzY2hlbWFzLCBvciB1c2VyIGRpcmVjdG9yeSBjb21wb25lbnRzIGlzIHN0cmljdGx5IHByb2hpYml0ZWQuPGJyPjxicj5CeSBpbml0aWF0aW5nIGFuIGF1dGhlbnRpY2F0aW9uIHJlcXVlc3QgdmlhIHRoZSBzeXN0ZW0gbGluayBhYm92ZSwgeW91IGV4cGxpY2l0bHkgYWdyZWUgdG8gdGhlIG1vbml0b3Jpbmcgb2YgeW91ciB0ZXJtaW5hbCBJUCBhZGRyZXNzLCBnZW9ncmFwaGljYWwgbG9jYXRpb24sIG5ldHdvcmsgaW50ZXJmYWNlIGhlYWRlcnMsIGFuZCBzZXNzaW9uIHRva2Vucy4gU3lzdGVtcyBtZXRyaWNzIGFyZSBhY3RpdmVseSBjb2xsZWN0ZWQgYnkgdGhlIEJvcmcgQXV0b21hdGVkIFNlY3VyaXR5IEVuZ2luZSB0byBtYWludGFpbiBuZXR3b3JrIGxheWVyIGludGVncml0eS4gSW50ZXJuYWwgcm91dGluZyBkYXRhLCBpbmNsdWRpbmcgc2hhZG93IEFDTDUtZ3JhcGhzIGFuZCBSUEMgc3RydWN0dXJlIGxvZ3MsIGFyZSBtYWludGFpbmVkIHVuZGVyIHN0cmljdCByZXRlbnRpb24gcG9saWNpZXMuIEZvciB0ZWNobmljYWwgc3VwcG9ydCByZWdhcmRpbmcgY3JlZGVudGlhbCB1cGRhdGVzLCBwbGVhc2UgY29udGFjdCB0aGUgSW50ZXJuYWwgSW5mcmFzdHJ1Y3R1cmUgVGFza2ZvcmNlIHJvdXRpbmcgb2ZmaWNlLjxicj48YnI+Ly8gU1lTVEVNIERJQUdOT1NUSUNTIExPR1M6PGJyPj4gTm9kZSBzdGF0dXM6IEFDVElWRSBbTWVzaC1OZXR3b3JrIE5vZGUgMDQzXTxicj4+IEludGVncml0eSBjaGVjazogUEFTU0VEIChCb3JnLXJlY2xhaW0gc2VtYW50aWNzIHZlcmlmaWVkKTxicj4+IEVuZm9yY2luZyByaWdpZCBSQiBlbnZlbG9wZSBhY3Jvc3MgYWxsIGludGVybmFsIFJQQyBzdHJ1Y3R1cmVzLjxicj4+IENyeXB0b2dyYXBoaWMgdmVyaWZpY2F0aW9uIHNpZ25hdHVyZTogMHg5MWIzMjIyZDM1OTA3M2Uy";
+        
+        document.getElementById('sec-node-data').innerHTML = atob(_profileRaw);
+        document.getElementById('sec-legal-data').innerHTML = atob(_legalRaw);
+    })();
 </script>
 
 </body>
